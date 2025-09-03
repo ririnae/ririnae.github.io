@@ -1,4 +1,4 @@
-const message = `I don’t even know if you’ll ever read this.\nBut if you do… I just want you to know, I love you with everything I am.\n\nAs if my heart knows no limits, yet every beat cuts deeper, a sweetness threaded can ache. \n\nThe world fades to shadow, faces blur, voices vanish, and still, unrelenting, my gaze returns only to you.`;
+const message = `I don’t even know if you’ll ever read this.But if you do… I just want you to know, I love you with everything I am.\n\nAs if my heart knows no limits, yet every beat cuts deeper, a sweetness threaded can ache. \n\nThe world fades to shadow, faces blur, voices vanish, and still, unrelenting, \nmy gaze returns only to you.`;
 
 function showLetter() {
   document.getElementById("introText").style.opacity = 0
@@ -21,5 +21,6 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
 
 
